@@ -1,4 +1,11 @@
-export const signup = (req, res) => res.send("signup route");
+export const signup = (req,res)=>{
+    const {email,password,fullName}=req.body
+try {
+    // hased password
+} catch (error) {
+    
+}
+};
 
 export const login = (req, res) => res.send("login route");
 
